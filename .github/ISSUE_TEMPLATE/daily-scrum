@@ -1,0 +1,25 @@
+name: "🗓 Daily Scrum"
+description: "팀원별 데일리 스크럼 진행 상황 기록"
+title: "2026-MM-DD-?요일"
+labels: ["scrum"]
+body:
+  - type: textarea
+    attributes:
+      label: 📌 공지/공유 사항
+      description: 팀 전체에 공유할 사항이 있으면 작성
+      value: |
+        전체 공지사항:
+        - x
+
+        ---
+
+        > 복사해서 사용(comment)
+        ```
+        ### 이름
+        - 어제 한 일:
+          - x
+        - 오늘 할 일:
+          - x
+        - 문제/이슈(선택):
+          - x
+        ```
